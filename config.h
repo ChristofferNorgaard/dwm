@@ -11,7 +11,8 @@ static       int smartgaps          = 0;        /* 1 means no outer gap when the
 static int showbar            = 1;        /* 0 means no bar */
 static int topbar             = 1;        /* 0 means bottom bar */
 static char font[]            = "monospace:size=10";
-static const char *fonts[]          = { font };
+static char icons[]           = "Material Design Icons Desktop:size=12";
+static const char *fonts[]          = { font, icons };
 static char dmenufont[]       = "monospace:size=10";
 static char normbgcolor[]           = "#222222";
 static char normbordercolor[]       = "#444444";
